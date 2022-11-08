@@ -41,7 +41,7 @@ img {
     display: block;
 }
 
-.containet {
+.container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -58,7 +58,7 @@ img {
     border-bottom: 1px solid #ECECEC;
 }
 
-.containet.header {
+.container.header {
     display: flex;
     align-items: center;
 }
@@ -256,7 +256,7 @@ img {
     background-color: #F5F4FA;
 }
 
-.containet.team-main {
+.container.team-main {
     display: flex;
     flex-direction: column;
 }
@@ -347,9 +347,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 9px;
-
 }
-
 
 .address-link-map:hover,
 .address-link-map:focus {
@@ -382,9 +380,9 @@ img {
 /* --------------------PORTFOLIO--------------------- */
 /* --------------------MAIN PORTF--------------------- */
 
-.containet.btn-portfolio-list {
+.container.project {
     display: flex;
-    justify-content: center;    
+    flex-direction: column;
 }
 
 .portfolio-list {
@@ -393,7 +391,6 @@ img {
     justify-content: center;
     margin-bottom: 50px;
 }
-
 
 .btn-portfolio {
     color: var(--text-color-linknav);
@@ -420,19 +417,15 @@ img {
 
 /* --------------------PROJECT--------------------- */
 
-.containet.portfolio-project{
-    display: flex;
-}
-
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;     
+    gap: 30px; 
+    justify-content: center;    
 }
 
 .project-item {
-    
-    width: calc((100% - 60px) / 3);
+    width: calc((100% - 60px) / 3);    
 }
 
 .info-portfolio {
