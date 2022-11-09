@@ -90,6 +90,10 @@ img {
     gap: 50px;
 }
 
+.item-nav.link-nav:active {
+    color: red;
+}
+
 .link-nav {   
     font-weight: 500;
     font-size: 14px;
@@ -100,8 +104,9 @@ img {
     color: var(--text-color-linknav);  
 }
 
-.item-nav,
+
 .link-nav {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -111,6 +116,13 @@ img {
     color: var(--selection-color);
 }
 
+.link-activ {
+    color: #2196F3;
+}
+
+/* .link-nav:active {
+    color: #2196F3;
+} */
 .contacts-nav-list {
     display: flex;    
     gap: 50px;
@@ -126,8 +138,9 @@ img {
     cursor: pointer;
     color: var(--text-color-contactnav);
 }
-.contacts-nav-item,
+
 .link-nav-contacts {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -141,7 +154,7 @@ img {
 
 /* --------------------main html---------------------- */
 
-
+/* ----------------------Hero---------------------- */
 
 .hero {
     background-color: var(--fons-color-hero); 
@@ -198,10 +211,13 @@ img {
     padding: 94px 0;
 }
 
-
 .feature-list {
     display: flex;
     gap: 30px;
+}
+
+.feature-item {
+    width: 270px;
 }
 
 .feature-title {
@@ -442,6 +458,7 @@ img {
     line-height: 2;
     letter-spacing: 0.06em;    
     color: var(--text-color-titleli);
+    margin-bottom: 4px;
 }
 
 .project-text {
@@ -451,3 +468,4 @@ img {
     letter-spacing: 0.03em;    
     color: var(--text-color-paragraphli);   
 }
+
