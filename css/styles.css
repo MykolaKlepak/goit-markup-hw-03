@@ -104,7 +104,6 @@ img {
     color: var(--text-color-linknav);  
 }
 
-
 .link-nav {
     display: block;
     padding-top: 32px;
@@ -116,13 +115,10 @@ img {
     color: var(--selection-color);
 }
 
-.link-activ {
-    color: #2196F3;
+.list-nav .link-nav.activ {
+    color: var(--selection-color);   
 }
 
-/* .link-nav:active {
-    color: #2196F3;
-} */
 .contacts-nav-list {
     display: flex;    
     gap: 50px;
@@ -160,7 +156,6 @@ img {
     background-color: var(--fons-color-hero); 
     padding: 200px 0px; 
 }
-
 
 .hero-title {
     font-weight: 900;
